@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://cnqbf784t6jfk"]
+
+[ext_resource type="Script" uid="uid://n6udo8ulpa7i" path="res://LogAnimationTest.cs" id="1_tswsp"]
+[ext_resource type="Texture2D" uid="uid://dwmreyhltw1wh" path="res://assets/objects/Basic_Grass_Biom_things.png" id="2_o46e4"]
+
+[node name="log animation test" type="Node2D"]
+script = ExtResource("1_tswsp")
+
+[node name="Log" type="Area2D" parent="."]
+
+[node name="Sprite2D" type="Sprite2D" parent="Log"]
+texture = ExtResource("2_o46e4")
+region_enabled = true
+region_rect = Rect2(80, 32, 16, 16)
